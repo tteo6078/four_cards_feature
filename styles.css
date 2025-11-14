@@ -42,3 +42,37 @@ body {
     max-width: 600px;
     text-align: center;
 }
+
+.tool-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05);
+    text-align: left;             
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;       
+}
+
+.card h3 {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 0.5rem;
+    padding-left: 2rem;
+
+}
+
+.card p {
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;;
+    color: hsl(212, 6%, 44%);
+    padding-left: 2rem;
+}
