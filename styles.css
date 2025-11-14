@@ -6,13 +6,19 @@ body {
 }
 
 .container {
+    max-width: 960px;
+    width: 100%;
+    text-align: center;
+}
+
+.container header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.container h1 {
+.container header h1 {
     font-family: 'poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 200;;
@@ -20,7 +26,7 @@ body {
     margin: 0px 0px 0px 0px; 
 }
 
-.container h2 {
+.container header h2 {
     font-family: 'poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;;
@@ -28,7 +34,7 @@ body {
     margin: 0px 0px 0px 0px; 
 }
 
-.container p {
+.container header p {
     font-family: 'poppins', sans-serif;
     font-size: 15px;
     font-weight: 400;;
