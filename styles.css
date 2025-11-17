@@ -57,7 +57,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items:flex-start; 
-    min-width: 300px;
+    min-width: 250px;
+    min-height: 250px;
 }
 
 .card h3 {
@@ -77,6 +78,28 @@ body {
     color: hsl(212, 6%, 44%);
     padding-left: 2rem;
 }
+
+.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.card img {
+    align-self: flex-end;
+    margin-top: 1.5rem;
+    padding-right: 1.5rem;
+}   
 
 @media (min-width: 900px) {
   .tool-cards {
@@ -108,6 +131,5 @@ body {
     grid-area: r;
     align-self: center;
   }
-
 
 }
