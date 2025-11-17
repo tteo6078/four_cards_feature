@@ -2,13 +2,13 @@ body {
     background-color: hsl(0, 0%, 98%);
     align-items: center;
     justify-content: center;
-    margin-top: 4rem;
+    display: grid;
+    min-height: 100vh;
 }
 
 .container {
-    max-width: 1440px;
-    width: 100%;
     text-align: center;
+    max-width: 1200px;
 }
 
 .container header {
@@ -111,7 +111,8 @@ body {
   }
 
   .card {
-    min-height: 260px;
+    min-height: 250px;
+    min-width: 200px;
   }
 
   .supervisor {
